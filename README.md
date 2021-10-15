@@ -9,7 +9,7 @@ A dependency free `timecode-converter` mode module utility. That can be used eit
 
 The problem of exporting it from [`@bbc/react-transcript-editor`](https://github.com/bbc/react-transcript-editor) or [`@pietrop/slate-transcript-editor`](https://github.com/pietrop/slate-transcript-editor) is that, somehow it ends up expecting react as a peer dependency. 
 
-And beside that not being ideal, it can cause problems with [](https://github.com/pietrop/edl-composer)
+And besides that not being ideal, or good practice, not only it can cause problems with keeping up with react peer dependency of other modules, but also add that as a peer dependency to other module consuming it, such as [@pietrop/edl-composer](https://github.com/pietrop/edl-composer) that doesn't really need any of that.
 </details>
 
 
@@ -87,7 +87,13 @@ _NA_
 ## Tests
 
 <!-- _How to carry out tests_ -->
-There are some tests, but in the module migration the test suite is currently ❌ 🤷‍♂️
+
+```
+npm run test
+```
+
+see [Jest & ECMAScript Modules](https://jestjs.io/docs/ecmascript-modules) in their docs, for more info.
+
 
 ## Deployment
 

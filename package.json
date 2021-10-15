@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest .",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
     "publish:public": " npm publish --access public",
     "publish:dry:run": "npm publish  --dry-run"
   },
