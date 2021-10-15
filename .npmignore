@@ -1,0 +1,4 @@
+*.test.js
+.nvmrc  
+CONTRIBUTING.md 
+CODE_OF_CONDUCT.md

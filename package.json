@@ -1,0 +1,16 @@
+{
+  "name": "@pietrop/timecode-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest .",
+    "publish:public": " npm publish --access public",
+    "publish:dry:run": "npm publish  --dry-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
